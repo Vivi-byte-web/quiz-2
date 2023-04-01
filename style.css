@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 20px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container input {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#btn {
+    color:white;
+    background-color: green;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: rgb(122, 198, 122);
+    color: black;
+}
+.answer-box {
+    border: 1px solid black;
+    padding: 0 20px;
+    width: 30%;
+    margin: 0 auto;
+    
+}
